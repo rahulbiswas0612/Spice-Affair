@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lato', sans-serif;
+  }
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #dedfdf;
+    line-height: 30px;
+  }
+  header {
+    padding: 11px 0;
+    background-color: #16191e;
+    border-bottom: 2px solid #999966;
+}
+.menu {
+  float: right;
+  margin-top: 20px;
+}
+.menu li {
+  float: left;
+  padding-right: 13px;
+  font-size: 15px;
+}
+
+ .menu li .edit {
+    color: #bed654;
+ }
+
+
+.menu li a:hover{
+  color: #999966;
+}
+.clear {
+    clear: both;
+}
+
+.banner-page {
+    background-image: url(../images/banner..jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 151px 0;
+    text-align: center;
+}
+.banner-page p {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0px 30px 0px;
+}
+.banner-page a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ab3f1b;
+    padding: 12px 24px;
+    color: #fff;
+}
+.banner-page a:hover {
+    background-color: transparent;
+    border: 2px solid #999966;
+}
+.banner-page h2 {
+    text-align: center;
+    color: #999966;
+    text-decoration: none;
+}
+.banner-page h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.clear {
+  clear: both;
+}
+
+.about-us {
+  background-color: #ead6af;
+  padding: 55px 0;
+  text-align: left;
+}
+
+.parental-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.member-image{
+  padding-left: 50px;
+}
+.member-text {
+ padding-top: 125px;
+}
+.member-text {
+  padding-right: 100px;
+}
+.member-text h2 {
+  font-family:'Great Vibes', cursive;
+  font-style: normal;
+  font-size: 36px;
+  color: #999966;
+}
+.member-text a {
+  padding: 10px 21px;
+  background-color: #ab3f1b;
+  color: #fff;
+  font-size: 12px;
+}
+.member-text a:hover {
+  background-color: transparent;
+  border: 2px solid #999966;
+}
+.clear {
+  clear: both;
+}
+
+.gallery {
+  text-align: center;
+  color: #000000;
+  padding: 50px 0px;
+}
+.gallery h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 41px;
+  color: #999966;
+}
+.parent-foods1 {
+  display: flex;
+  justify-content: space-around;
+}
+.parent-foods2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.dishes {
+  padding-right: 15px;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.59);
+  top: 0;
+  bottom: 4px;
+  left: 0;
+  right: 15px;
+  padding: 150px 0;
+  opacity: 0;
+}
+.overlay:hover{
+  opacity: 1;
+}
+.dishes img{
+  width: 100%;
+}
+.clear {
+  clear: both;
+}
+.client {
+  background:rgba(0, 0, 0, 0.7) url(../images/banner-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 155px 0px;
+  text-align: center;
+  color: #fff;
+  background-blend-mode: darken;
+}
+.client h3 {
+  font-family:'Great Vibes', cursive;
+  font-size: 35px;
+  color: #999966;
+}
+.picture img{
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 100px;
+}
+.clear {
+  clear: both;
+}
+
+.fresh {
+  background-color: #ead6af;
+  text-align: center;
+  padding: 40px 0px;
+  }
+  
+.fresh p {
+  padding-bottom: 20px ;
+}
+.parent-box {
+  display: flex;
+  justify-content: space-between;
+}
+.box2 {
+  padding-top: 7px;
+}
+.box3 {
+  padding-top: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.contact {
+  background-color: #0b0d0f;
+  text-align: left;
+  padding: 70px 0px;
+  color: #fff;
+}
+.font-icon {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.button a {
+  padding: 15px 30px;
+  background-color: #ab3f1b;
+}
+.button a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+} 
+.details2 {
+  margin-top: 10px;
+}
+.details2 h1 {
+  padding-top: 17px;
+}
+.parent-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.details2 {
+  text-align: center;
+}
+.details3 h4 {
+  padding-bottom: 20px;
+}
+.info a  {
+color: #fff;
+}
+.info a:hover {
+  color: #999966;
+}
+.info li {
+  margin-bottom: 25px;
+}
+.clear {
+  clear: both;
+}
+footer {
+  background-color: #16191e;
+  padding: 10px 0;
+
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright p {
+  color: #fff;
+}
+.copyright a {
+  color: #999966;
+  padding-top: 11px;
+}
